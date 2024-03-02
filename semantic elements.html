@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sematic Elements</title>
+    <style>
+        ul{
+            list-style-type: none ;
+            margin: 0%;
+            padding: 0%;
+            overflow: hidden;
+            background-color: blueviolet;
+        }
+        li {
+            float: left;
+        }
+
+        li a{
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            color: black;
+            padding: 14px 16px;
+         }
+
+         li a:hover{
+            background-color: aquamarine;
+         }
+         header{
+            color: black;
+         }
+         aside{
+            background-color: navy;
+            width: 34%;
+            height: 300px;
+            float: right;
+            padding-top: 82px;
+            text-align: center;
+            color: pink;
+         }
+         aside a{
+            color: coral;
+         }
+         article{
+            background-color: blanchedalmond;
+            width: 58%;
+            height: auto;
+            overflow: hidden;
+            margin: 10px;
+            padding: 10px;
+            float: left;
+         }
+         article li{
+            float: none;
+         }
+         section{
+            background-color: blanchedalmond;
+            width: 58%;
+            height: auto;
+            overflow: hidden;
+            margin: 10px;
+            padding: 10px;
+            float: left;
+         }
+         section li{
+            float: none;
+         }
+         details{
+            overflow: hidden;
+            float: left;
+            width: 97%;
+            color: black;
+            border: 2px ridge grey;
+            padding: 10px;
+         }
+         footer{
+            overflow: hidden;
+            float: left;
+
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Computer Coaching</h1>
+        <h3>Learn Computer Courses Daily</h3>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#HOME">HOME  </a></li>
+            <li><a href="#COURSES">COURSES  </a></li>
+            <li><a href="#CONTACT US">CONTACT US  </a></li>
+        </ul>
+    </nav>
+    <aside>
+        <figure>
+            <img src="computer.jpeg" alt="" height="100px" width="100px">
+            <figcaption>Computer Logo</figcaption>
+
+        </figure>
+        <a href="#applink"> Click to Install the App Now</a>
+    </aside>
+    <article>
+        <h2>All features of Android app</h2>
+        <ol>
+            <li>Computer Courses</li>
+            <li>Computer Dictionary</li>
+            <li>Subject Wise - Topic Wise Notes</li>
+            <li>Video Tutorial</li>
+        </ol>
+    </article>
+    <section>
+        <h2>Subjects Available In App</h2>
+        <ol>
+            <li>C Programming</li>
+            <li>Operating System</li>
+            <li>Java</li>
+            <li>HTML CSS JAVASCRIPT</li>
+        </ol>
+    </section>
+    <details>
+        <summary>Summary about App</summary>
+        <p>Best App for Learning</p>
+    </details>
+
+    <footer>
+        <p>Copyright &copy; 2022. All right reserved</p>
+    </footer>
+</body>
+</html>
